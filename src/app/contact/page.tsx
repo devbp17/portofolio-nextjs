@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 import style from './inputContact.module.css'
 
-function page() {
+function Page() {
    const [nama, setnama] = useState("");
    const [email, setemail] = useState("");
    const [pesan, setpesan] = useState("");
@@ -31,4 +31,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

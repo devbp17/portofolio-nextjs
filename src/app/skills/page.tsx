@@ -8,7 +8,7 @@ import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
 
-function page() {
+function Page() {
   return (
     <>
         <h2 className={style.judul2}>
@@ -85,4 +85,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

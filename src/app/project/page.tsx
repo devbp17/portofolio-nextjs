@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from "next/image";
 
-function page() {
+function Page() {
 
     const box = `m-10 flex flex-col justify-start items-center w-[250px] h-[350px] border-[1.5px] border-gray-300 rounded-2xl cursor-grab bg-black transition-transform transition-shadow duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.6),0_0_40px_rgba(147,147,147,0.4)]`
     const img = `border-1 overflow-hidden rounded-2xl w-[250px] h-[130px]`
@@ -36,4 +36,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
