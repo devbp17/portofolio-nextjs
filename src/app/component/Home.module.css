@@ -1,0 +1,16 @@
+.img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: solid 2px lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 
+              0 0 40px rgba(147, 147, 147, 0.4);
+}
